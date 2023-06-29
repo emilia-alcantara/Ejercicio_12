@@ -32,6 +32,11 @@ private ActivityCartaBinding binding;
         menu.add("Pasta de salmón a la mostaza");
         menu.add("Hamburguesa vegana de alubia roja y quinoa");
         menu.add("Lasaña de lenguado");
+        menu.add("Pierna de cordero al horno");
+        menu.add("Curry verde de pollo");
+        menu.add("Albóndigas veganas con salsa de tomate");
+        menu.add("Alubias con calamar a la plancha");
+        menu.add("Sepia con mayonesa de wasabi");
 
         ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, menu);
 
